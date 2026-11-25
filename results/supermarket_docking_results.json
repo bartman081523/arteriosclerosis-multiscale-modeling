@@ -1,0 +1,30 @@
+{
+  "eNOS_s_allylcysteine": {
+    "target": "eNOS",
+    "ligand": "s_allylcysteine",
+    "description": "Knoblauch / S-Allylcystein an eNOS",
+    "affinity_kcal_mol": -5.42,
+    "est_kd_uM": 151.4
+  },
+  "eNOS_hydroxytyrosol": {
+    "target": "eNOS",
+    "ligand": "hydroxytyrosol",
+    "description": "Oliven\u00f6l / Hydroxytyrosol an eNOS",
+    "affinity_kcal_mol": -6.29,
+    "est_kd_uM": 36.78
+  },
+  "PON1_urolithin_a": {
+    "target": "PON1",
+    "ligand": "urolithin_a",
+    "description": "Granatapfel / Urolithin A an PON1",
+    "affinity_kcal_mol": -7.82,
+    "est_kd_uM": 3.08
+  },
+  "PON1_hydroxytyrosol": {
+    "target": "PON1",
+    "ligand": "hydroxytyrosol",
+    "description": "Oliven\u00f6l / Hydroxytyrosol an PON1",
+    "affinity_kcal_mol": -5.68,
+    "est_kd_uM": 99.94
+  }
+}

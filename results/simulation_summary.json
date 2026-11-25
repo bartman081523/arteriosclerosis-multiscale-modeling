@@ -1,0 +1,18 @@
+{
+  "c_max_15ml_uM": 166.14577552313588,
+  "t_max_15ml_min": 34.62925851703407,
+  "c_max_30ml_uM": 257.291550190065,
+  "t_max_30ml_min": 34.62925851703407,
+  "max_ffar2_occupancy_15ml": 0.3218483765446248,
+  "max_ffar2_occupancy_30ml": 0.42360027522091215,
+  "max_no_increase_15ml_percent": 31.294009715615957,
+  "max_hmgcr_inhibition_15ml_percent": 12.338368115289367,
+  "max_nlrp3_suppression_15ml_percent": 29.628922387177013,
+  "max_tfeb_autophagy_increase_15ml_percent": 13.674229743992928,
+  "acid_base": {
+    "uncompensated_delta_pH_15ml": -0.015389946588012293,
+    "compensated_delta_pH_15ml": -0.043394680414306386,
+    "uncompensated_delta_pH_30ml": -0.03245517629055783,
+    "compensated_delta_pH_30ml": -0.04664608667367531
+  }
+}

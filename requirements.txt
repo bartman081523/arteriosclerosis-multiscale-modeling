@@ -1,0 +1,11 @@
+numpy>=2.0
+scipy>=1.14
+matplotlib>=3.9
+pandas>=2.2
+requests>=2.32
+biopython>=1.84
+rdkit>=2024.03
+vina>=1.2.5
+openbabel>=3.1.1
+meeko>=0.5.0
+SALib>=1.5.0

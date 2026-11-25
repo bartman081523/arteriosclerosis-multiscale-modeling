@@ -1,0 +1,42 @@
+{
+  "1. Kontrolle (Unbehandelt)": {
+    "tav_change_24m_percent": 14.49,
+    "lipid_core_final_mm3": 58.87,
+    "lipid_core_reduction_percent": -17.73,
+    "fibrous_cap_final_um": 44.4,
+    "calcification_final_mm3": 26.16,
+    "inflammation_final_rel": 1.17
+  },
+  "2. Essig allein (15 mL/Tag)": {
+    "tav_change_24m_percent": 11.01,
+    "lipid_core_final_mm3": 55.52,
+    "lipid_core_reduction_percent": -11.04,
+    "fibrous_cap_final_um": 50.4,
+    "calcification_final_mm3": 25.71,
+    "inflammation_final_rel": 1.05
+  },
+  "3. Knoblauch allein (Aged Garlic)": {
+    "tav_change_24m_percent": 1.24,
+    "lipid_core_final_mm3": 47.24,
+    "lipid_core_reduction_percent": 5.53,
+    "fibrous_cap_final_um": 67.5,
+    "calcification_final_mm3": 23.38,
+    "inflammation_final_rel": 0.71
+  },
+  "4. Supermarkt-Synergie-Protokoll": {
+    "tav_change_24m_percent": -14.1,
+    "lipid_core_final_mm3": 32.46,
+    "lipid_core_reduction_percent": 35.07,
+    "fibrous_cap_final_um": 92.3,
+    "calcification_final_mm3": 21.57,
+    "inflammation_final_rel": 0.28
+  },
+  "5. Goldstandard (PCSK9i + Statin)": {
+    "tav_change_24m_percent": -25.12,
+    "lipid_core_final_mm3": 18.5,
+    "lipid_core_reduction_percent": 63.0,
+    "fibrous_cap_final_um": 110.7,
+    "calcification_final_mm3": 23.59,
+    "inflammation_final_rel": 0.13
+  }
+}

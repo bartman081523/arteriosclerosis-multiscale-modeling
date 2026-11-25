@@ -1,0 +1,115 @@
+{
+  "N_virtual_patients": 1000,
+  "simulation_days": 730,
+  "plaque_volume_change_24m": {
+    "Control": {
+      "median": 24.4,
+      "ci_95_low": 8.95,
+      "ci_95_high": 48.07,
+      "iqr_25": 18.09,
+      "iqr_75": 30.9
+    },
+    "Supermarket_Overall": {
+      "median": 4.46,
+      "ci_95_low": -5.32,
+      "ci_95_high": 18.31,
+      "iqr_25": 0.61,
+      "iqr_75": 8.46
+    },
+    "Supermarket_Responders_MetaA": {
+      "median": -0.58,
+      "ci_95_low": -7.17,
+      "ci_95_high": 14.69,
+      "iqr_25": -3.3,
+      "iqr_75": 3.48
+    },
+    "Supermarket_NonResponders_Meta0": {
+      "median": 6.23,
+      "ci_95_low": -3.46,
+      "ci_95_high": 20.1,
+      "iqr_25": 2.98,
+      "iqr_75": 9.97
+    },
+    "Statin_PCSK9_GoldStandard": {
+      "median": -14.91,
+      "ci_95_low": -16.73,
+      "ci_95_high": -13.27,
+      "iqr_25": -15.85,
+      "iqr_75": -14.15
+    }
+  },
+  "lipid_core_reduction_24m": {
+    "Control": {
+      "median": 40.63,
+      "ci_95_low": 11.31,
+      "ci_95_high": 87.86,
+      "iqr_25": 28.75,
+      "iqr_75": 54.47
+    },
+    "Supermarket_Overall": {
+      "median": 10.71,
+      "ci_95_low": -12.63,
+      "ci_95_high": 46.06,
+      "iqr_25": 1.43,
+      "iqr_75": 19.87
+    },
+    "Supermarket_Responders_MetaA": {
+      "median": -1.33,
+      "ci_95_low": -16.66,
+      "ci_95_high": 36.42,
+      "iqr_25": -7.29,
+      "iqr_75": 8.3
+    },
+    "Supermarket_NonResponders_Meta0": {
+      "median": 14.48,
+      "ci_95_low": -8.17,
+      "ci_95_high": 48.99,
+      "iqr_25": 7.0,
+      "iqr_75": 23.45
+    },
+    "Statin_PCSK9_GoldStandard": {
+      "median": -37.6,
+      "ci_95_low": -38.68,
+      "ci_95_high": -35.64,
+      "iqr_25": -38.05,
+      "iqr_75": -37.05
+    }
+  },
+  "final_fibrous_cap_thickness_um": {
+    "Control": {
+      "median": 46.84,
+      "ci_95_low": 26.51,
+      "ci_95_high": 65.01,
+      "iqr_25": 38.98,
+      "iqr_75": 53.66
+    },
+    "Supermarket_Overall": {
+      "median": 78.26,
+      "ci_95_low": 60.29,
+      "ci_95_high": 96.0,
+      "iqr_25": 71.53,
+      "iqr_75": 84.19
+    },
+    "Supermarket_Responders_MetaA": {
+      "median": 78.84,
+      "ci_95_low": 61.41,
+      "ci_95_high": 96.16,
+      "iqr_25": 72.28,
+      "iqr_75": 84.5
+    },
+    "Supermarket_NonResponders_Meta0": {
+      "median": 77.33,
+      "ci_95_low": 59.51,
+      "ci_95_high": 95.66,
+      "iqr_25": 71.01,
+      "iqr_75": 83.99
+    },
+    "Statin_PCSK9_GoldStandard": {
+      "median": 92.74,
+      "ci_95_low": 74.53,
+      "ci_95_high": 110.36,
+      "iqr_25": 86.09,
+      "iqr_75": 98.73
+    }
+  }
+}

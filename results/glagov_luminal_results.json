@@ -1,0 +1,104 @@
+{
+  "Supermarket_Coupled": {
+    "plaque_pct_change": {
+      "median": 0.65,
+      "ci_low": -7.9,
+      "ci_high": 10.23,
+      "iqr": 6.27
+    },
+    "delta_plaque_abs_mm3": {
+      "median": 0.63,
+      "ci_low": -7.92,
+      "ci_high": 10.51,
+      "iqr": 6.14
+    },
+    "t_cap_final_um": {
+      "median": 68.07,
+      "ci_low": 62.13,
+      "ci_high": 69.74,
+      "iqr": 1.58
+    },
+    "delta_cap_abs_um": {
+      "median": 14.07,
+      "ci_low": 8.13,
+      "ci_high": 15.74,
+      "iqr": 1.58
+    },
+    "stenosis_pct": {
+      "median": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "iqr": 0.0
+    },
+    "final_tau_w_Pa": {
+      "median": 0.76,
+      "ci_low": 0.46,
+      "ci_high": 1.05,
+      "iqr": 0.2
+    }
+  },
+  "Control_Null_Coupled": {
+    "plaque_pct_change": {
+      "median": 17.32,
+      "ci_low": 4.66,
+      "ci_high": 31.71,
+      "iqr": 9.47
+    },
+    "delta_plaque_abs_mm3": {
+      "median": 16.98,
+      "ci_low": 4.64,
+      "ci_high": 33.79,
+      "iqr": 9.73
+    },
+    "t_cap_final_um": {
+      "median": 54.74,
+      "ci_low": 49.92,
+      "ci_high": 58.12,
+      "iqr": 2.83
+    },
+    "delta_cap_abs_um": {
+      "median": 0.74,
+      "ci_low": -4.08,
+      "ci_high": 4.12,
+      "iqr": 2.83
+    },
+    "stenosis_pct": {
+      "median": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 5.73,
+      "iqr": 1.03
+    },
+    "final_tau_w_Pa": {
+      "median": 0.77,
+      "ci_low": 0.47,
+      "ci_high": 1.06,
+      "iqr": 0.21
+    }
+  },
+  "sobol_coupled": {
+    "names": [
+      "k_deconj_macrophage",
+      "srebp2_rebound_gain",
+      "enos_hill_ec50",
+      "vsmc_collagen_rate",
+      "mmp_degradation_rate",
+      "adherence_mean"
+    ],
+    "plaque_ST": [
+      0.7993,
+      0.0185,
+      0.0,
+      0.0,
+      0.0,
+      0.2039
+    ],
+    "cap_ST_coupled": [
+      0.0032,
+      0.0,
+      0.0068,
+      0.9539,
+      0.0172,
+      0.0225
+    ]
+  }
+}

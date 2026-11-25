@@ -1,0 +1,235 @@
+{
+  "gate1_numerics_convergence": {
+    "N_250_dt_1.0": {
+      "plaque": {
+        "median": -0.41,
+        "ci_low": -7.96,
+        "ci_high": 9.85,
+        "iqr": 5.88
+      },
+      "t_cap": {
+        "median": 90.46,
+        "ci_low": 83.0,
+        "ci_high": 91.35,
+        "iqr": 1.45
+      }
+    },
+    "N_1000_dt_1.0": {
+      "plaque": {
+        "median": 0.65,
+        "ci_low": -7.9,
+        "ci_high": 10.23,
+        "iqr": 6.27
+      },
+      "t_cap": {
+        "median": 90.32,
+        "ci_low": 83.09,
+        "ci_high": 91.3,
+        "iqr": 1.66
+      }
+    },
+    "N_5000_dt_1.0": {
+      "plaque": {
+        "median": -0.0,
+        "ci_low": -7.4,
+        "ci_high": 10.66,
+        "iqr": 6.39
+      },
+      "t_cap": {
+        "median": 90.37,
+        "ci_low": 83.26,
+        "ci_high": 91.3,
+        "iqr": 1.56
+      }
+    },
+    "N_1000_dt_0.5": {
+      "plaque": {
+        "median": 0.65,
+        "ci_low": -7.9,
+        "ci_high": 10.23,
+        "iqr": 6.27
+      },
+      "t_cap": {
+        "median": 90.32,
+        "ci_low": 83.09,
+        "ci_high": 91.3,
+        "iqr": 1.67
+      }
+    },
+    "verdict": {
+      "passed": false,
+      "delta_N1000_N5000": 0.65,
+      "delta_dt10_dt05": 0.0,
+      "seed_std": 0.227
+    }
+  },
+  "gate2_falsification_null_audit": {
+    "plaque_stats": {
+      "median": 17.12,
+      "ci_low": 4.71,
+      "ci_high": 31.45,
+      "iqr": 9.41
+    },
+    "cap_stats": {
+      "median": 73.06,
+      "ci_low": 65.76,
+      "ci_high": 78.68,
+      "iqr": 4.47
+    },
+    "passed": true
+  },
+  "gate3_submodel_ablation": {
+    "Vollmodell": {
+      "plaque": {
+        "median": 0.65,
+        "ci_low": -7.9,
+        "ci_high": 10.23,
+        "iqr": 6.27
+      },
+      "cap": {
+        "median": 90.32,
+        "ci_low": 83.09,
+        "ci_high": 91.3,
+        "iqr": 1.66
+      },
+      "delta_plaque_median": 0.0,
+      "delta_cap_median": -0.0
+    },
+    "Ohne Makrophagen-Dekonjugation": {
+      "plaque": {
+        "median": 7.2,
+        "ci_low": -4.22,
+        "ci_high": 20.51,
+        "iqr": 8.41
+      },
+      "cap": {
+        "median": 89.93,
+        "ci_low": 80.85,
+        "ci_high": 91.27,
+        "iqr": 3.47
+      },
+      "delta_plaque_median": 6.55,
+      "delta_cap_median": -0.39
+    },
+    "Ohne SREBP-2-Gegenregulation": {
+      "plaque": {
+        "median": 0.07,
+        "ci_low": -8.24,
+        "ci_high": 9.52,
+        "iqr": 6.11
+      },
+      "cap": {
+        "median": 90.33,
+        "ci_low": 83.21,
+        "ci_high": 91.3,
+        "iqr": 1.56
+      },
+      "delta_plaque_median": -0.58,
+      "delta_cap_median": 0.01
+    },
+    "Ohne Hill-S\u00e4ttigung (linear)": {
+      "plaque": {
+        "median": 0.65,
+        "ci_low": -7.9,
+        "ci_high": 10.23,
+        "iqr": 6.27
+      },
+      "cap": {
+        "median": 90.49,
+        "ci_low": 86.65,
+        "ci_high": 91.32,
+        "iqr": 0.67
+      },
+      "delta_plaque_median": 0.0,
+      "delta_cap_median": 0.17
+    },
+    "Ohne Infekt-Spikes": {
+      "plaque": {
+        "median": 0.65,
+        "ci_low": -7.9,
+        "ci_high": 10.23,
+        "iqr": 6.27
+      },
+      "cap": {
+        "median": 90.32,
+        "ci_low": 83.09,
+        "ci_high": 91.3,
+        "iqr": 1.67
+      },
+      "delta_plaque_median": 0.0,
+      "delta_cap_median": -0.0
+    }
+  },
+  "gate4_sobol_sensitivity": {
+    "names": [
+      "k_deconj_macrophage",
+      "srebp2_rebound_gain",
+      "enos_hill_ec50",
+      "vsmc_collagen_rate",
+      "mmp_degradation_rate",
+      "adherence_mean"
+    ],
+    "plaque_median": {
+      "S1": [
+        0.7745,
+        0.0152,
+        0.0,
+        0.0,
+        0.0,
+        0.1906
+      ],
+      "ST": [
+        0.7709,
+        0.0184,
+        0.0,
+        0.0,
+        0.0,
+        0.2124
+      ],
+      "S1_conf": [
+        0.1872,
+        0.0227,
+        0.0,
+        0.0,
+        0.0,
+        0.0682
+      ],
+      "ST_conf": [
+        0.1199,
+        0.0043,
+        0.0,
+        0.0,
+        0.0,
+        0.0523
+      ]
+    },
+    "cap_thickness": {
+      "S1": [
+        -0.0001,
+        -0.0,
+        0.0002,
+        0.9967,
+        0.0019,
+        0.0057
+      ],
+      "ST": [
+        0.0002,
+        0.0,
+        0.0003,
+        1.0002,
+        0.0017,
+        0.0041
+      ]
+    },
+    "plaque_iqr": {
+      "ST": [
+        0.9703,
+        0.0187,
+        0.0,
+        0.0,
+        0.0,
+        0.0698
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "FFAR2": {
+    "acetate": {
+      "affinity_kcal_mol": -2.57,
+      "estimated_kd_uM": 15504.91,
+      "all_energies": [
+        -2.57,
+        -2.54,
+        -2.36,
+        -2.34,
+        -2.3
+      ],
+      "docked_pdbqt": "/run/media/julian/ML6/arteriosklerosis/results/FFAR2_acetate_docked.pdbqt"
+    },
+    "acetic_acid_neutral": {
+      "affinity_kcal_mol": -2.95,
+      "estimated_kd_uM": 8328.94,
+      "all_energies": [
+        -2.95,
+        -2.67,
+        -2.63,
+        -2.62,
+        -2.52
+      ],
+      "docked_pdbqt": "/run/media/julian/ML6/arteriosklerosis/results/FFAR2_acetic_acid_neutral_docked.pdbqt"
+    },
+    "formate": {
+      "affinity_kcal_mol": -1.87,
+      "estimated_kd_uM": 48118.5,
+      "all_energies": [
+        -1.87,
+        -1.87,
+        -1.74,
+        -1.72,
+        -1.63
+      ],
+      "docked_pdbqt": "/run/media/julian/ML6/arteriosklerosis/results/FFAR2_formate_docked.pdbqt"
+    },
+    "propionate": {
+      "affinity_kcal_mol": -3.14,
+      "estimated_kd_uM": 6109.46,
+      "all_energies": [
+        -3.14,
+        -3.07,
+        -3.04,
+        -2.88,
+        -2.74
+      ],
+      "docked_pdbqt": "/run/media/julian/ML6/arteriosklerosis/results/FFAR2_propionate_docked.pdbqt"
+    },
+    "butyrate": {
+      "affinity_kcal_mol": -3.55,
+      "estimated_kd_uM": 3166.8,
+      "all_energies": [
+        -3.55,
+        -3.4,
+        -3.37,
+        -3.23,
+        -3.19
+      ],
+      "docked_pdbqt": "/run/media/julian/ML6/arteriosklerosis/results/FFAR2_butyrate_docked.pdbqt"
+    }
+  },
+  "ACSS2": {
+    "acetate": {
+      "affinity_kcal_mol": -2.4,
+      "estimated_kd_uM": 20396.44,
+      "all_energies": [
+        -2.4,
+        -2.32,
+        -2.26,
+        -2.25,
+        -2.22
+      ],
+      "docked_pdbqt": "/run/media/julian/ML6/arteriosklerosis/results/ACSS2_acetate_docked.pdbqt"
+    },
+    "acetic_acid_neutral": {
+      "affinity_kcal_mol": -2.93,
+      "estimated_kd_uM": 8617.62,
+      "all_energies": [
+        -2.93,
+        -2.62,
+        -2.62,
+        -2.56,
+        -2.56
+      ],
+      "docked_pdbqt": "/run/media/julian/ML6/arteriosklerosis/results/ACSS2_acetic_acid_neutral_docked.pdbqt"
+    },
+    "formate": {
+      "affinity_kcal_mol": -1.83,
+      "estimated_kd_uM": 51261.74,
+      "all_energies": [
+        -1.83,
+        -1.82,
+        -1.76,
+        -1.72,
+        -1.68
+      ],
+      "docked_pdbqt": "/run/media/julian/ML6/arteriosklerosis/results/ACSS2_formate_docked.pdbqt"
+    },
+    "propionate": {
+      "affinity_kcal_mol": -2.86,
+      "estimated_kd_uM": 9716.98,
+      "all_energies": [
+        -2.86,
+        -2.81,
+        -2.79,
+        -2.76,
+        -2.76
+      ],
+      "docked_pdbqt": "/run/media/julian/ML6/arteriosklerosis/results/ACSS2_propionate_docked.pdbqt"
+    },
+    "butyrate": {
+      "affinity_kcal_mol": -3.24,
+      "estimated_kd_uM": 5219.78,
+      "all_energies": [
+        -3.24,
+        -3.15,
+        -3.12,
+        -3.08,
+        -3.06
+      ],
+      "docked_pdbqt": "/run/media/julian/ML6/arteriosklerosis/results/ACSS2_butyrate_docked.pdbqt"
+    }
+  }
+}
